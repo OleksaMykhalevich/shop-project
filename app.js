@@ -1,9 +1,9 @@
 
 const productsCountEl = document.getElementById("products-count");
-console.log(productsCountEl);
+
 
 const addToCartBtns = document.querySelectorAll(".btn-cart");
-console.log(addToCartBtns);
+
 
 
 for (let i = 0; i < addToCartBtns.length; i++) {
@@ -41,6 +41,24 @@ moreDetailsBtns.forEach((item) => {
 });
 
 btnClose.addEventListener("click", closeModal);
+
+
+let a = true;
+window.onscroll = function(){
+
+const scrolling = window.scrollY; 
+if(scrolling > 1350 && a == true ){
+  openModal()
+  a = false;
+}else{
+  
+}
+
+}
+
+
+
+
 
 
   $(".slider").slick({
