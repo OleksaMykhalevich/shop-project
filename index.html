@@ -8,11 +8,15 @@
     <title>
         <p>Lesson-9</p>
     </title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
 
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -156,7 +160,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-4">
+                        <div class="col-4 ">
                             <div class="product">
                                 <div class="product-image">
                                     <img src="images/desktop.png" class="displayed" alt="">
@@ -178,6 +182,11 @@
                                     </div>
                                     <div class="product-price">
                                         $599 <span>25</span>
+                                    </div>
+                                    <div class="product-quantity">
+                                        <button class="decrement-button">-</button>
+                                        <input type="text" value="1">
+                                        <button class="increment-button">+</button>
                                     </div>
                                     <button class="btn-details">MORE DETAILS</button>
                                     <button class="btn-cart">ADD TO CART</button>
@@ -207,6 +216,11 @@
                                     <div class="product-price-long">
                                         $1250 <span>99</span>
                                     </div>
+                                    <div class="product-quantity">
+                                        <button class="decrement-button">-</button>
+                                        <input type="text" value="1">
+                                        <button class="increment-button">+</button>
+                                    </div>
                                     <button class="btn-details">MORE DETAILS</button>
                                     <button class="btn-cart">ADD TO CART</button>
                                 </div>
@@ -234,6 +248,11 @@
                                     </div>
                                     <div class="product-price">
                                         $399 <span>50</span>
+                                    </div>
+                                    <div class="product-quantity">
+                                        <button class="decrement-button">-</button>
+                                        <input type="text" value="1">
+                                        <button class="increment-button">+</button>
                                     </div>
                                     <button class="btn-details">MORE DETAILS</button>
                                     <button class="btn-cart">ADD TO CART</button>
@@ -263,6 +282,11 @@
                                     <div class="product-price">
                                         $599 <span>25</span>
                                     </div>
+                                    <div class="product-quantity">
+                                        <button class="decrement-button">-</button>
+                                        <input type="text" value="1">
+                                        <button class="increment-button">+</button>
+                                    </div>
                                     <button class="btn-details">MORE DETAILS</button>
                                     <button class="btn-cart">ADD TO CART</button>
                                 </div>
@@ -290,6 +314,11 @@
                                     </div>
                                     <div class="product-price">
                                         $599 <span>25</span>
+                                    </div>
+                                    <div class="product-quantity">
+                                        <button class="decrement-button">-</button>
+                                        <input type="text" value="1">
+                                        <button class="increment-button">+</button>
                                     </div>
                                     <button class="btn-details">MORE DETAILS</button>
                                     <button class="btn-cart">ADD TO CART</button>
@@ -319,6 +348,11 @@
                                     <div class="product-price">
                                         $599 <span>25</span>
                                     </div>
+                                    <div class="product-quantity">
+                                        <button class="decrement-button">-</button>
+                                        <input type="text" value="1">
+                                        <button class="increment-button">+</button>
+                                    </div>
                                     <button class="btn-details">MORE DETAILS</button>
                                     <button class="btn-cart">ADD TO CART</button>
                                 </div>
@@ -347,33 +381,10 @@
                                     <div class="product-price">
                                         $599 <span>25</span>
                                     </div>
-                                    <button class="btn-details">MORE DETAILS</button>
-                                    <button class="btn-cart">ADD TO CART</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="product">
-                                <div class="product-image">
-                                    <img src="images/desktop.png" class="displayed" alt="">
-                                    <div class="zoom"></div>
-                                    <div class="like small-btn" id="heart"></div>
-                                </div>
-                                <div class="product-body">
-                                    <div class="product-name">#1 iPhone X</div>
-                                    <div class="product-description">Lorem, ipsum dolor sit amet consectetur
-                                        consectetur.</div>
-                                    <div class="product-features">
-                                        <span>TYPE:</span> Laptop
-                                    </div>
-                                    <div class="product-features">
-                                        <span>SCREEN SIZE:</span> 7 inches
-                                    </div>
-                                    <div class="product-features">
-                                        <span>RAM:</span> 1 GB
-                                    </div>
-                                    <div class="product-price">
-                                        $599 <span>25</span>
+                                    <div class="product-quantity">
+                                        <button class="decrement-button">-</button>
+                                        <input type="text" value="1">
+                                        <button class="increment-button">+</button>
                                     </div>
                                     <button class="btn-details">MORE DETAILS</button>
                                     <button class="btn-cart">ADD TO CART</button>
@@ -402,6 +413,44 @@
                                     </div>
                                     <div class="product-price">
                                         $599 <span>25</span>
+                                    </div>
+                                    <div class="product-quantity">
+                                        <button class="decrement-button">-</button>
+                                        <input type="text" value="1">
+                                        <button class="increment-button">+</button>
+                                    </div>
+                                    <button class="btn-details">MORE DETAILS</button>
+                                    <button class="btn-cart">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="product">
+                                <div class="product-image">
+                                    <img src="images/desktop.png" class="displayed" alt="">
+                                    <div class="zoom"></div>
+                                    <div class="like small-btn" id="heart"></div>
+                                </div>
+                                <div class="product-body">
+                                    <div class="product-name">#1 iPhone X</div>
+                                    <div class="product-description">Lorem, ipsum dolor sit amet consectetur
+                                        consectetur.</div>
+                                    <div class="product-features">
+                                        <span>TYPE:</span> Laptop
+                                    </div>
+                                    <div class="product-features">
+                                        <span>SCREEN SIZE:</span> 7 inches
+                                    </div>
+                                    <div class="product-features">
+                                        <span>RAM:</span> 1 GB
+                                    </div>
+                                    <div class="product-price">
+                                        $599 <span>25</span>
+                                    </div>
+                                    <div class="product-quantity">
+                                        <button class="decrement-button">-</button>
+                                        <input type="text" value="1">
+                                        <button class="increment-button">+</button>
                                     </div>
                                     <button class="btn-details">MORE DETAILS</button>
                                     <button class="btn-cart">ADD TO CART</button>
@@ -436,6 +485,8 @@
             </form>
         </div>
     </div>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
